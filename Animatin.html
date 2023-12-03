@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            height: 500px;
+            width: 500px;
+          /*  border: solid red 3px;*/
+            margin: 100px;
+            margin-left: 500px;
+            background-color: aqua;
+            background: repeating-linear-gradient( closest-side at 30% 40%, red ,green ,yellow );  
+            animation-name: example;
+            animation-duration: 2s;
+        }
+
+        h1{
+            margin: 100px;
+            margin-left: 150px;
+            text-align: center;
+            margin-top: 100px;
+            padding: 180px;
+            padding-left: 5px;
+        }
+        @keyframes example {
+form{border-radius: 20px;}
+to{border-radius: 60px;}
+        }
+
+        .main2{
+            height: 500px;
+            width: 500px;
+          /*  border: solid red 3px;*/
+            margin: 100px;
+            margin-left: 500px;
+            background-color: aqua;
+            background: repeating-linear-gradient( closest-side at 30% 40%, red ,green ,yellow );  
+            animation-name: example2;
+            animation-duration: 5s;
+            animation-iteration-count: 3;
+            animation-direction: normal;
+            animation-play-state: paused;
+          /*  transition: transform 0.5s ease;
+         transform: scale(1);  */
+         opacity: 0.4px;
+
+        }
+        
+        .main2:hover{
+animation-play-state: running;
+opacity: 2px;
+        }
+    
+        @keyframes example2 {
+0%{border-radius: 30px;
+color: red;}
+10%{border-radius: 80px;
+color: aquamarine;}
+25%{border-radius: 10px;
+color: blue;}
+50%{border-radius: 100px;
+color: brown;}
+75%{border-radius: 40px;
+color: darkviolet;}
+100%{border-radius: 200px;
+color: limegreen;}
+        }    
+    </style>
+</head>
+<body>
+    <div class="main">
+        <h1>GRASTECH1</h1>
+    </div>
+    <div class="main2">
+        <h1>GRASTECH2</h1>
+    </div>
+    <br><br>
+    <h1>SANDHYA THAKUR</h1>
+    <bdo dir="rtl">siya is a cute girl.</bdo>
+</body>
+</html>
